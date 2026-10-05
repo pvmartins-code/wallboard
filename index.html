@@ -642,7 +642,7 @@
                                                     <span className={`px-2.5 py-1 rounded-lg font-mono font-black text-[10px] uppercase tracking-wider ${
                                                         isRed ? 'bg-red-600 text-white' : (airport.code === 'CVU' && cvuWet ? 'bg-amber-500 text-slate-950' : 'bg-amber-500 text-slate-950')
                                                     }`}>
-                                                        {isRed ? 'RED (FORA LIMITES)' : (airport.code === 'CVU' && cvuWet ? 'AMBER (PISTA MOLHADA)' : 'AMBER (AVISO)')}
+                                                        {isRed ? '(FORA LIMITES)' : (airport.code === 'CVU' && cvuWet ? '(PISTA MOLHADA)' : '(AVISO)')}
                                                     </span>
                                                 </div>
 
@@ -651,7 +651,7 @@
                                                     <div className="mt-2.5 px-2.5 py-1.5 rounded-lg bg-amber-50 border border-amber-300 text-amber-950 text-xs font-mono flex items-center justify-between">
                                                         <span className="font-bold flex items-center gap-1.5 text-[11px]">
                                                             <span>⚠️</span>
-                                                            <span>CVU: PISTA 11/29 MOLHADA (800m)</span>
+                                                            <span>CVU: PISTA 11/29 MOLHADA</span>
                                                         </span>
                                                         <span className="text-[9px] font-bold text-amber-800 font-sans uppercase">Limitação Crítica</span>
                                                     </div>
